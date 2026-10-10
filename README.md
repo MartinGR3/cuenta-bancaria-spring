@@ -41,3 +41,5 @@ Gana @Qualifier, porque seleccionar un bean por su nombre y tiene prioridad sobr
 5. En tu proyecto de Empleados de la Semana 3 nunca escribiste `@ComponentScan`. ¿Quién lo hace?
 
 Lo hace @SpringBootApplication, porque incluye la anotación @ComponentScan, además de @SpringBootConfiguration y @EnableAutoConfiguration. Por eso Spring Boot detecta automáticamente clases como @Service y @RestController dentro del paquete correspondiente y sus subpaquetes.
+
+## En este repositorio dejo los cuestionarios de la Semana en la carpeta de Semana5
